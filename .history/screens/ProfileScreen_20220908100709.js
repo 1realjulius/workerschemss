@@ -47,7 +47,7 @@ const ProfileScreen = () => {
             <Image source={require('../assets/Images/tatoo-2.jpg')} className=" w-[180px] h-[180px] rounded-full" />
           </View>
           {/* User Personal Details */}
-          <View className='px-4'>
+          <View className='px-6'>
             <Text className='py-1 px-4 text-lg text-gray-500'>User Details</Text>
             <View className='border-2 border-gray-300 rounded-md divide-y-2 divide-gray-300'>
               <View className='px-4 py-2 flex flex-row items-center justify-between'>
@@ -69,7 +69,7 @@ const ProfileScreen = () => {
             </View>
           </View>
           {/* The action buttoms */}
-          <View className='px-4 py-8'>
+          <View className='p-6'>
             <View>
               <TouchableOpacity  className='my-1 bg-gray-300 px-3 py-2 items-center rounded-md flex flex-row justify-center space-x-2'>
                 <Text className='text-lg'>Edit Personal Details</Text>

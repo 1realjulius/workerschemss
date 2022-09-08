@@ -69,7 +69,7 @@ const ProfileScreen = () => {
             </View>
           </View>
           {/* The action buttoms */}
-          <View className='px-4 py-8'>
+          <View className='p-4'>
             <View>
               <TouchableOpacity  className='my-1 bg-gray-300 px-3 py-2 items-center rounded-md flex flex-row justify-center space-x-2'>
                 <Text className='text-lg'>Edit Personal Details</Text>

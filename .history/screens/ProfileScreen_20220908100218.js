@@ -48,28 +48,21 @@ const ProfileScreen = () => {
           </View>
           {/* User Personal Details */}
           <View className='px-4'>
-            <Text className='py-1 px-4 text-lg text-gray-500'>User Details</Text>
+            <Text className='py-1 px-4 text-lg font-semibold'>User Details</Text>
             <View className='border-2 border-gray-300 rounded-md divide-y-2 divide-gray-300'>
-              <View className='px-4 py-2 flex flex-row items-center justify-between'>
-                <Text className='text-lg'>User Name</Text>
-                <Text className='text-lg text-gray-500'>Julius Eghan</Text>
+              <View className='px-4 py-2'>
+                <Text className='text-lg'>Text</Text>
               </View>
-              <View className='px-4 py-2 flex flex-row items-center justify-between'>
-                <Text className='text-lg'>Email</Text>
-                <Text className='text-lg text-gray-500'>iamjulius@gmail.com</Text>
+              <View className='px-4 py-2 items-center'>
+                <Text>Text</Text>
               </View>
-              <View className='px-4 py-2 flex flex-row items-center justify-between'>
-                <Text className='text-lg'>Phone Number</Text>
-                <Text className='text-lg text-gray-500'>0549321512</Text>
-              </View>
-              <View className='px-4 py-2 flex flex-row items-center justify-between'>
-                <Text className='text-lg'>Location</Text>
-                <Text className='text-lg text-gray-500'>Accra, Ghana</Text>
+              <View className='px-4 py-2 items-center'>
+                <Text>Text</Text>
               </View>
             </View>
           </View>
           {/* The action buttoms */}
-          <View className='px-4 py-8'>
+          <View className='p-4'>
             <View>
               <TouchableOpacity  className='my-1 bg-gray-300 px-3 py-2 items-center rounded-md flex flex-row justify-center space-x-2'>
                 <Text className='text-lg'>Edit Personal Details</Text>
